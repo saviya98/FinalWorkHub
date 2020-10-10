@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/searchView"
+        android:layout_width="93dp"
+        android:layout_height="73dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        app:srcCompat="@drawable/ic_proimage"
+        tools:ignore="VectorDrawableCompat"
+        />
+
+    <TextView
+        android:id="@+id/saerHead"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/robotoregular"
+        android:padding="20sp"
+        android:text="TextView"
+        android:textColor="@color/customBlack"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/serArr"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_weight="1"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24"
+        tools:ignore="VectorDrawableCompat" />
+
+</LinearLayout>
